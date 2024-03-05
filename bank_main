@@ -1,0 +1,24 @@
+/*
+ *  bank_main.cpp
+ *
+ *  Created on: March 5, 2024
+ *      Author: Ahmed Gamal
+ */
+using namespace std;
+#include <iostream>
+#include "account.h"
+#include "bank.h"
+
+int main()
+{ 
+	bank b;
+	b.open_account("amr", "ahmed", 20000);
+	b.open_account("mohamed", "ahmed", 10500);
+	b.open_account("marwan", "gamal", 29000);
+	b.deposit(1, 5000);
+	b.withdraw(3, 9000);
+	b.balance_details(2);
+	b.show_all();
+
+
+}
