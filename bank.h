@@ -13,10 +13,12 @@ private:
 	account* p;
 public:
 	bank();
+	void menu();
 	void open_account(string f,string l,float b);
 	void deposit(int acc_num,float amount);
 	void withdraw(int acc_num, float amount);
 	void balance_details(int acc_num);
 	void show_all();
+	void show_account_details(int acc_num);
 	~bank();
 };
