@@ -11,14 +11,13 @@ using namespace std;
 
 int main()
 { 
-	bank b;
-	b.open_account("amr", "ahmed", 20000);
-	b.open_account("mohamed", "ahmed", 10500);
-	b.open_account("marwan", "gamal", 29000);
-	b.deposit(1, 5000);
-	b.withdraw(3, 9000);
-	b.balance_details(2);
-	b.show_all();
+	bank b;	
+	b.open_account("ahmed", "gamal", 18000);
+	b.open_account("mohamed", "eissa", 16000);
+	b.open_account("marwan", "hamed", 9000);
+	b.open_account("may", "mohamed", 28000);
+	b.menu();
+	
 
 
 }
